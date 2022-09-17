@@ -1,3 +1,9 @@
+golang-github-smira-go-xz (0.0~git20220607.c2a07d4-molior1) unstable; urgency=medium
+
+  * bump version 0.0~git20220607.c2a07d4-molior1
+
+ -- André Roth <neolynx@gmail.com>  Sat, 17 Sep 2022 17:51:11 +0200
+
 golang-github-smira-go-xz (0.0~git20150414.0c531f0-2) unstable; urgency=medium
 
   * d/copyright: mention CC-BY-3.0.
