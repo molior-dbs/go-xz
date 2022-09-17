@@ -1,0 +1,25 @@
+Source: golang-github-smira-go-xz
+Section: devel
+Priority: optional
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: Alexandre Viau <aviau@debian.org>
+Build-Depends: debhelper (>= 11),
+               dh-golang,
+               golang-any,
+               xz-utils
+Standards-Version: 4.1.4
+Homepage: https://github.com/smira/go-xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-smira-go-xz
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-smira-go-xz.git
+XS-Go-Import-Path: github.com/smira/go-xz
+Testsuite: autopkgtest-pkg-go
+
+Package: golang-github-smira-go-xz-dev
+Architecture: all
+Depends: ${misc:Depends}, xz-utils
+Description: simple .xz decompression using external program (xz --decompress)
+ Package go-xz provides imple .xz decompression using external
+ program (xz --decompress).
+ .
+ This package uses external xz utility, so no depdendencies for the
+ compiled binary.
