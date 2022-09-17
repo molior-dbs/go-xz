@@ -1,0 +1,11 @@
+golang-github-smira-go-xz (0.0~git20150414.0c531f0-2) unstable; urgency=medium
+
+  * d/copyright: mention CC-BY-3.0.
+
+ -- Alexandre Viau <aviau@debian.org>  Sun, 14 Oct 2018 20:36:00 -0400
+
+golang-github-smira-go-xz (0.0~git20150414.0c531f0-1) unstable; urgency=medium
+
+  * Initial release (Closes: #902140)
+
+ -- Alexandre Viau <aviau@debian.org>  Fri, 22 Jun 2018 13:07:57 -0400

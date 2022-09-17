@@ -1,0 +1,4 @@
+version=3
+opts=filenamemangle=s/.+\/v?(\d\S*)\.tar\.gz/golang-github-smira-go-xz-\$1\.tar\.gz/,\
+uversionmangle=s/(\d)[_\.\-\+]?(RC|rc|pre|dev|beta|alpha)[.]?(\d*)$/\$1~\$2\$3/ \
+  https://github.com/smira/go-xz/tags .*/v?(\d\S*)\.tar\.gz
