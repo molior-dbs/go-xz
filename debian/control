@@ -6,7 +6,8 @@ Uploaders: Alexandre Viau <aviau@debian.org>
 Build-Depends: debhelper (>= 11),
                dh-golang,
                golang-any,
-               xz-utils
+               xz-utils,
+               git
 Standards-Version: 4.1.4
 Homepage: https://github.com/smira/go-xz
 Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-smira-go-xz
