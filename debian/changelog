@@ -1,3 +1,14 @@
+golang-github-smira-go-xz (0.0~git20220607.c2a07d4-molior3) unstable; urgency=medium
+
+  * golang-github-smira-go-xz: release 0.0~git20220607.c2a07d4-molior2
+  * debian: add missing dependency
+  * golang-github-smira-go-xz: release 0.0~git20220607.c2a07d4-molior1
+  * build for molior
+  * debianize
+  * use old reader implementation to ensure cmd.Wait
+
+ -- André Roth <neolynx@gmail.com>  Mon, 19 Dec 2022 11:35:49 +0100
+
 golang-github-smira-go-xz (0.0~git20220607.c2a07d4-molior2) unstable; urgency=medium
 
   * debian: add missing dependency
